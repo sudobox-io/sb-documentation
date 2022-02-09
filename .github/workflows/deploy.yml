@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths-ignore:
+      - '.github/**'
+      - '/README.md'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event.repository.fork == false
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install git+https://${GHCR_TOKEN}@github.com/sudobox-io/mkdocs.git
+      - run: mkdocs gh-deploy --force
+#      - uses: sarisia/actions-status-discord@v1
+#        if: always()
+#        with:
+#          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+
+env:
+  GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
