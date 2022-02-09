@@ -1,0 +1,13 @@
+site_name: docs.sudobox.io
+site_url: https://docs.sudobox.io/
+site_author: sudobox
+site_description: Some Sudobox description
+
+repo_name: sb-documentation
+repo_url: https://github.com/sudobox-io/sb-documentation
+
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+
