@@ -1,4 +1,4 @@
-site_name: docs.sudobox.io
+site_name: Sudobox Docs
 site_url: https://docs.sudobox.io/
 site_author: sudobox
 site_description: Some Sudobox description
@@ -10,4 +10,39 @@ edit_uri: edit/master/docs/
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+  logo: images/sb_logo.png
+  favicon: images/sb_logo.png
+  palette:
+    - scheme: slate 
+
+extra:
+  version:
+    provider: mike
+
+plugins:
+  - search:
+      lang: en
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - "Get Started":
+    - Installation:
+      - CLI: "Get Started/Installation/CLI.md"
+  - Apps: index.md
+  - Troubleshooting: index.md
+  - FAQ: index.md
+
 
