@@ -39,17 +39,18 @@ extra_css:
 nav:
   - Home: index.md
   - "Get Started":
-    - Installation:
+    - "Installation":
       - Installer: "Get Started/Installation/installer.md"
       - CLI: "Get Started/Installation/CLI.md"
-      - Prerequisites:
-        - Server: "Get Started/Installation/Prerequisites/Server.md"
-        - CloudFlare: "Get Started/Installation/Prerequisites/CloudFlare.md"
-        - Domain: "Get Started/Installation/Prerequisites/Domain.md"
-  - Apps: index.md
-      - Core: 
+    - "Prerequisites":
+      - Server: "Get Started/Installation/Prerequisites/Server.md"
+      - CloudFlare: "Get Started/Installation/Prerequisites/CloudFlare.md"
+      - Domain: "Get Started/Installation/Prerequisites/Domain.md"
+  - "Apps":
+      - "Core": 
         - SB-Mount: "Apps/Core/SB-Mount.md"
-        - SB-Uploader: "Apps/Core/SB-Uploader.md"  
+        - SB-Uploader: "Apps/Core/SB-Uploader.md"
+      - "Supported": 
   - Troubleshooting: "Troubleshooting/Troubleshooting.md"
   - FAQ: index.md
 
