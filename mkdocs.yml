@@ -42,12 +42,12 @@ nav:
     - Installation:
       - Installer: "Get Started/Installation/installer.md"
       - CLI: "Get Started/Installation/CLI.md"
-      - Prerequisites: "Get Started/Installation/Prerequisites.md"
+      - Prerequisites:
         - Server: "Get Started/Installation/Prerequisites/Server.md"
         - CloudFlare: "Get Started/Installation/Prerequisites/CloudFlare.md"
         - Domain: "Get Started/Installation/Prerequisites/Domain.md"
   - Apps: index.md
-      - Core: "Apps/Core/core.md"
+      - Core: 
         - SB-Mount: "Apps/Core/SB-Mount.md"
         - SB-Uploader: "Apps/Core/SB-Uploader.md"  
   - Troubleshooting: "Troubleshooting/Troubleshooting.md"
