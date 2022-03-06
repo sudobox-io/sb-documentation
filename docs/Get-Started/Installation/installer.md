@@ -26,9 +26,15 @@ Have the following information handy to speed up your installation:
 
 To begin your journey with Sudobox.io and execute the installation process you can type or paste the command below:
 
-```bash
-curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash
-```
+=== "curl"
+    ```bash
+    curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash
+    ```
+
+=== "curl2"
+    ```bash
+    curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash
+    ```
 
 ![SudoBox Preinstaller!](./sb-installer.png "SB-preinstaller")
 

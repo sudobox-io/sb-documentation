@@ -45,6 +45,12 @@ plugins:
   - search:
       lang: en
 
+markdown_extensions:
+  - pymdownx.highlight:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
 extra_css:
   - stylesheets/extra.css
 
