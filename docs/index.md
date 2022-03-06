@@ -8,7 +8,7 @@ We are a passion project with a very small team that also makes contributions to
 So what are you waiting for, grab your shark repellent bat spray, join our Discord and become part of the community!
 
 ### What is it?
-You can read more about what SaSudobox is [here](https://sudobox.io).
+You can read more about what Sudobox is [here](https://sudobox.io).
 
 ### How do I install it?
 Install instructions start [here](Get-Started/Installation/installer.md).
