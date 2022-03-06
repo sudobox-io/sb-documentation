@@ -41,7 +41,6 @@ nav:
   - Get Started:
     - Installation:
       - Installer: "Get-Started/Installation/installer.md"
-      - CLI: "Get-Started/Installation/CLI.md"
     - Prerequisites:
       - Server: "Get-Started/Prerequisites/Server.md"
       - CloudFlare: "Get-Started/Prerequisites/CloudFlare.md"

@@ -1,17 +1,8 @@
-# Welcome to MkDocs2
+# Welcome to SudoBox 
 
-For full documentation visit123 [mkdocs.org](https://www.mkdocs.org).
+We are fully open source and are always on the lookout for people to join in on the effort and contribute via the community in anyway possible.
 
-## Commands
+We are a passion project with a very small team that also makes contributions to other renowned projects such as Ibracorp. We fully encourage all members of the community to learn, discourse and to treat everyone equally.
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+So what are you waiting for, grab your shark repellent bat spray, join our Discord and become part of the community!
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
