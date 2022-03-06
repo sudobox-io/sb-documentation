@@ -2,6 +2,8 @@
 
 ## Pre Installer
 
+You will need to install as the root user. 
+
 ### Minimum Specs and Requirements
 
 <ol>
@@ -28,7 +30,7 @@ To begin your journey with Sudobox.io and execute the installation process you c
 
 === "curl"
     ```bash
-    curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash && source ~/.bashrc && sb
+    curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash && source ~/.bashrc
     ```
 
 ![SudoBox Preinstaller!](./sb-installer.png "SB-preinstaller")
