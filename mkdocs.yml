@@ -10,6 +10,7 @@ edit_uri: edit/master/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
@@ -28,6 +29,17 @@ theme:
 extra:
   version:
     provider: mike
+  generator: false
+  social:
+  - icon: fontawesome/solid/heart
+    link: '/'
+    name: Donate
+  - icon: fontawesome/brands/discord
+    link: 'https://discord.gg/Ebh9rKQ5Ws'
+    name: Discord
+  - icon: fontawesome/brands/github
+    link: 'https://github.com/sudobox-io/sb-install'
+    name: GitHub
 
 plugins:
   - search:
