@@ -54,7 +54,7 @@ nav:
     - Installation:
       - Installer: "Get-Started/Installation/installer.md"
     - Prerequisites:
-      - Server: "Get-Started/Prerequisites/Server.md"
+      - Server: "Get-Started/Prerequisites/server.md"
       - CloudFlare: "Get-Started/Prerequisites/CloudFlare.md"
       - Domain: "Get-Started/Prerequisites/Domain.md"
   - Apps:
