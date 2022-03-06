@@ -58,18 +58,18 @@ nav:
   - Home: index.md
   - Get Started:
     - Installation:
-      - Installer: "Get-Started/Installation/installer.md"
+      - Installer: "get-started/installation/installer.md"
     - Prerequisites:
-      - Server: "Get-Started/Prerequisites/server.md"
-      - CloudFlare: "Get-Started/Prerequisites/CloudFlare.md"
-      - Domain: "Get-Started/Prerequisites/Domain.md"
+      - Server: "get-started/prerequisites/server.md"
+      - CloudFlare: "get-started/prerequisites/cloudflare.md"
+      - Domain: "get-started/prerequisites/domain.md"
   - Apps:
       - Core: 
-        - SB-Mount: "Apps/Core/SB-Mount.md"
-        - SB-Uploader: "Apps/Core/SB-Uploader.md"
+        - SB-Mount: "apps/core/sb-mount.md"             
+        - SB-Uploader: "apps/core/sb-uploader.md"
       - Supported: 
-        - Plex: "Apps/Supported/Plex.md"
-  - Troubleshooting: "Troubleshooting/Troubleshooting.md"
+        - Plex: "apps/supported/plex.md"
+  - Troubleshooting: "troubleshooting/troubleshooting.md"
   - FAQ: index.md
 
 
