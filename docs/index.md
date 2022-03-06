@@ -11,7 +11,7 @@ So what are you waiting for, grab your shark repellent bat spray, join our Disco
 You can read more about what Sudobox is [here](https://sudobox.io).
 
 ### How do I install it?
-Install instructions start [here](Get-Started/Installation/installer.md).
+Install instructions start [here](get-started/installation/installer.md).
 
 ### Can I migrate from Cloudbox or PlexGuide?
 Migrations are still being built fresh installs are the recomended at the moment.
