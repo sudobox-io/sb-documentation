@@ -29,7 +29,7 @@ To begin your journey with Sudobox.io and execute the installation process you c
 === "curl"
     ```bash
     curl -fsSl https://raw.githubusercontent.com/sudobox-io/sb-install/master/install.sh | sudo bash && 
-    alias sb='docker run -it --network=sudobox_private -v /opt/sudobox/configs:/configs --rm --name sb-cli ghcr.io/sudobox-io/sb-cli && clear' && sb
+    source ~/.bashrc && sb
     ```
 
 ![SudoBox Preinstaller!](./sb-installer.png "SB-preinstaller")
