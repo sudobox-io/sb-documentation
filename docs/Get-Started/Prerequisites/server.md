@@ -1,4 +1,4 @@
-# server Requirements 
+# Server Requirements 
 
 Below is the minimum requiremts but not limited to installing Sudobox.
 
