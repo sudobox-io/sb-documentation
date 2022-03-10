@@ -25,5 +25,12 @@ some important docs text
             <sub style="font-size:14px"><b>salty</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Xpl0yt91>
+            <img src=https://avatars.githubusercontent.com/u/43792836?v=4 width="100;"  alt=Xployt/>
+            <br />
+            <sub style="font-size:14px"><b>Xployt</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
