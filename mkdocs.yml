@@ -35,7 +35,7 @@ extra:
     link: '/'
     name: Donate
   - icon: fontawesome/brands/discord
-    link: 'https://discord.gg/Ebh9rKQ5Ws'
+    link: 'https://discord.gg/sudobox'
     name: Discord
   - icon: fontawesome/brands/github
     link: 'https://github.com/sudobox-io/sb-install'

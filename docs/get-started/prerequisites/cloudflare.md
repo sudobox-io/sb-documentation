@@ -1,28 +1,31 @@
-# Cloudflare Basics 
+# Cloudflare Basics
 
-## Creating an account 
+## Creating an account
 
 <li>Cloudflare account free tier <a href=https://www.cloudflare.com/en-gb/plans/free/>SignUp</a></li>
 
-## Getting your Global API 
+## Getting your Global API
 
 <li>Cloudflare Global API --> Find it here. <a href=https://developers.cloudflare.com/api/keys/#view-your-api-key/>Global API</a></li>
 
 To retrieve your API key:
 
-1.  Log in to the Cloudflare dashboard.
-2.  In the **My Profile** dropdown, click **My Profile**.
-3.  Click **API Tokens**.
-4.  In the **API Keys** section, view or change either of your API keys:
+1. Log in to the Cloudflare dashboard.
 
-    - **Global API Key**: Serves as your main API key.
-    - **Origin CA Key**: Only used when creating origin certificates using the API.
+2. In the **My Profile** dropdown, click **My Profile**.
 
-##  Domain Zone ID
+3. Click **API Tokens**.
+
+4. In the **API Keys** section, view or change either of your API keys:
+   
+   - **Global API Key**: Serves as your main API key.
+   - **Origin CA Key**: Only used when creating origin certificates using the API.
+
+## Domain Zone ID
 
 Each zone (yourdomain.com) on CloudFlare has a unique number identifier. If you need to locate the zoneid for a domain, simply go to the "Reports and Stats' link for that domain (the zone id appears at the end with an equal sign, such as zid=xxxxxx).
 
-## Account Token 
+## Account Token
 
 <li>Cloudflare API Token --> learn to make one here. <a href=https://developers.cloudflare.com/api/tokens/create//>API Tokens</a></li>
 
@@ -36,9 +39,9 @@ If you are new to API Tokens or the Cloudflare API, Templates are the quickest w
 
 For this example, the `Edit Zone DNS` template has been selected. After selecting, you are presented with a view of the currently selected permissions. There are 3 required inputs to creating a Token:
 
-1.  The token name
-2.  The permissions granted to the token
-3.  The resources the token can affect
+1. The token name
+2. The permissions granted to the token
+3. The resources the token can affect
 
 ![Template Customization](./media/template-customize.png)
 
@@ -52,9 +55,9 @@ This can be anything text and should be informative of why or how the token is b
 
 Permissions are segmented into three categories based on resource:
 
-1.  Zone Permissions
-2.  Account Permissions
-3.  User Permissions
+1. Zone Permissions
+2. Account Permissions
+3. User Permissions
 
 After selecting a Permission Group, you can choose what level of access to grant the token. Most groups offer `Edit` or `Read` options. `Edit` is full *CRUDL* (*create*, *read*, *update*, *delete*, *list*) access, while `Read` is just the *read* permission and *list* where appropriate.
 
@@ -68,9 +71,9 @@ As permissions are selected in resource categories, options for selecting the ap
 
 When creating tokens with access to zone resources there are multiple ways to define the access. The options available are:
 
-1.  A specific zone - ex: example.com.
-2.  All zones from a specific account - ex: All zones belonging to the account named `example production`.
-3.  All zones in all accounts. This grants access to every zone you have access to. Exercise caution when granting permissions this widely.
+1. A specific zone - ex: example.com.
+2. All zones from a specific account - ex: All zones belonging to the account named `example production`.
+3. All zones in all accounts. This grants access to every zone you have access to. Exercise caution when granting permissions this widely.
 
 Note: When selections of option 2 or 3 are included, then excluding zones can be used to "allow all" zones as defined except specific zones.
 
@@ -82,8 +85,8 @@ For this example, we go with option 1 and select the zone `theburritobot.com`.
 
 Account resources are similar to zone resources but with 1 less option:
 
-1.  A specific account - ex: My Production Account.
-2.  All accounts. This would be all the accounts the user has access to.
+1. A specific account - ex: My Production Account.
+2. All accounts. This would be all the accounts the user has access to.
 
 Once you have selected the appropriate permissions and resources, select `Continue to Summary` to review the token before creating.
 
@@ -105,13 +108,12 @@ Once successfully generated, the token secret is only shown once. Make sure to c
 
 ![Token Create Completion Screen](./media/token-complete.png)
 
-
 ### Roll API token
 
 If the secret is lost or believed to be compromised, you can either create a new token or your token can be rolled to generate a new secret. Rolling your secret key into a new one will invalidate the previous secret, but the access and permissions will be the same as the previous key.
 
 To roll your API token:
 
-1.  Log into your [Cloudflare account](https://dash.cloudflare.com) and go to **User Profile** > **API Tokens**.
-2.  Next to the API token you wish to roll, click the **three dot icon** > **Roll**.
-3.  Then, click **Confirm** to continue and you will see a new API token secret key.
+1. Log into your [Cloudflare account](https://dash.cloudflare.com) and go to **User Profile** > **API Tokens**.
+2. Next to the API token you wish to roll, click the **three dot icon** > **Roll**.
+3. Then, click **Confirm** to continue and you will see a new API token secret key.
