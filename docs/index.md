@@ -18,7 +18,7 @@ Install instructions start [here](get-started/installation/installer.md).
 
 ### Can I migrate from Cloudbox or PlexGuide?
 
-Migrations are still being built fresh installs are the recomended at the moment.
+Migrations are still being built, fresh installs are recomended at the moment.
 
 ### Is there a Discord server for support?
 
